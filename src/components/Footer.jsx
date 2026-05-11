@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 font-inter text-sm antialiased">
-            © 2026 KVS Universal Solutions. Kinetic Sophistication in Logistics.
+            © 2026 KVS Universal Solutions | Design & Developed by <a href="https://intelloft.com" target="_blank" rel="noopener noreferrer" className="text-primary font-bold hover:underline">Intelloft</a>
           </p>
           <div className="flex gap-6">
             <a className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-slate-600 hover:bg-primary hover:text-white transition-all" href="#">
