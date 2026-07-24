@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import highTechWarehouse from '../assets/high_tech_warehouse.png';
+import globalRouting from '../assets/global_routing.png';
 
 const About = () => {
   return (
@@ -48,7 +50,7 @@ const About = () => {
           {/* Prism Layout Visual */}
           <div className="relative">
             <div className="aspect-square relative rounded-[2.5rem] overflow-hidden shadow-2xl z-20 transform -rotate-2">
-              <img className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLnZ0HxsR-0lltNByl4A1nth6jUekZilMmFEe30Oy96rFZs7lCsNZSRdlBkvVwwby67JwyMKSsjkKjXJq6JxP3YECTzW6rk6iltqqUGQQ-tRis6ddjNppQG_Z8_N-QpPCDCmZZaF3Oehmr7fB82pIJH6u9loLsJo12pN29_XKwve4GhDZcyZ-iLPu6-lca88kOeJ38nvVPPru5jgIEbHj36mjo98QFU7EDKnD8hTqdCus8pWMNC36vj7SJ_J-CdLgteW7WOF7Fpw" alt="Modern high-tech logistics" />
+              <img className="w-full h-full object-cover" src={highTechWarehouse} alt="Modern high-tech logistics" />
             </div>
             <div className="absolute -top-8 -right-8 w-64 h-64 bg-secondary rounded-[2rem] z-10 transform rotate-12 flex items-end p-8">
               <span className="text-6xl font-black text-on-secondary opacity-20">KVS</span>
@@ -99,7 +101,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 auto-rows-[250px]">
             {/* Large Feature */}
             <div className="md:col-span-8 md:row-span-2 bg-primary overflow-hidden rounded-[2.5rem] relative group">
-              <img className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0fjbXdGYv-iMoXpAbzwr2rHauwToEajDrEVKobtBaWgTB05MgZVqRmVqmezadVHy2W9A_7x3SrEFPz9oZB7SunZi9u8xQo-C8___23uoKtdid_WLburZ-zsOL7HTjxkfcRWDeFY9FrKUqMi9lHdhAZgwPYU69b5-D17hmQOuaBK_QehZFq_j7DftkqggVAKiFs6r3x6SDtsWQzqmvyR29P4sNS6dN8qVXi_hg55vqjDggL2zNMvXUIEs7nirwgMz_CLkNBjiVVQ" alt="Global Routing" />
+              <img className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" src={globalRouting} alt="Global Routing" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-10">
                 <h3 className="text-3xl font-bold text-white mb-4">Precision Global Routing</h3>
@@ -145,7 +147,7 @@ const About = () => {
             <div className="relative z-10">
               <h2 className="text-4xl md:text-5xl font-headline font-extrabold text-white mb-8 tracking-tight">Ready to accelerate your supply chain?</h2>
               <div className="flex flex-col sm:flex-row justify-center gap-6">
-                <a href="https://wa.me/919877413558?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:brightness-110 active:scale-95 transition-all shadow-xl">
+                <a href="https://wa.me/918699417062?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:brightness-110 active:scale-95 transition-all shadow-xl">
                   Partner With Us
                 </a>
 

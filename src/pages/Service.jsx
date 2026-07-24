@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import supportTeam from '../assets/support_team.png';
+import logisticsDashboard from '../assets/logistics_dashboard.png';
 
 const Service = () => {
   return (
@@ -8,10 +10,11 @@ const Service = () => {
       <section className="relative overflow-hidden pt-24 pb-20">
         <div className="absolute top-0 right-0 -z-10 w-2/3 h-full opacity-10 blur-3xl kinetic-gradient rounded-full translate-x-1/2 -translate-y-1/2"></div>
         <div className="max-w-7xl mx-auto px-6">
-          <div className="max-w-3xl">
+          <div className="max-w-5xl">
             <span className="inline-block px-4 py-1.5 mb-6 rounded-full bg-secondary-container text-on-secondary-container font-label text-xs font-bold tracking-widest uppercase">Global Excellence</span>
-            <h1 className="text-6xl md:text-8xl font-headline font-extrabold text-on-surface leading-[1.05] tracking-tighter mb-8">
-              Precision <span className="text-primary italic">Movement</span>, Absolute Integrity.
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-headline font-extrabold text-on-surface leading-[1.05] tracking-tighter mb-8">
+              <span className="block">Precision <span className="text-primary italic">Movement</span>,</span>
+              <span className="block">Absolute Integrity.</span>
             </h1>
             <p className="text-xl text-on-surface-variant leading-relaxed mb-8 max-w-2xl">
               KVS Universal Solutions redefines logistics through kinetic sophistication. We manage the complexity of global supply chains with an editorial eye for detail and high-velocity execution.
@@ -127,7 +130,7 @@ const Service = () => {
                   </div>
                 </div>
                 <div className="md:w-1/3 relative">
-                  <img className="w-full h-full min-h-[160px] object-cover rounded-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxjKV1HL1o131l_GU_B42Oxo0Na-GdWCyoTklDMKU54i6LlQHYhEL-bQW-IB8EVWN0FTgF8U-BUfZRW6QIElo90hu0GSV8C6G1Cp8WpN0QjPOKhfeH2StWBmqYLpXYHP0RNZ1y5TTgm8XTG86cxEJcr9e1uSKZiWDkTiX0qag6BFJDZ6k9CaLbB6NDDqwIHKgFJens7vR6iye_8zrQVgSBpj7qsQ6hRFHwNAYd27c2WUxLUZet1ZihVPmV8hWFyn-UitO1rJWNDQ" alt="Support Team" />
+                  <img className="w-full h-full min-h-[160px] object-cover rounded-2xl" src={supportTeam} alt="Support Team" />
                 </div>
               </div>
             </div>
@@ -194,7 +197,7 @@ const Service = () => {
             <div className="md:w-1/2 relative">
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-secondary/10 rounded-full blur-3xl"></div>
               <div className="relative bg-surface-container-highest rounded-[3rem] p-2 overflow-hidden shadow-2xl">
-                <img className="w-full aspect-square object-cover rounded-[2.5rem]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKvr8C3UKV5yJI7V9YlL64SmKpcf80K114C1f1RmOFwN9bWDHNQNt467a6cBMUOCwDjcRf-DYQ2Iruv1iumcMFOMqswCDCiA6zfFQHW8xnrmHTl83KTODbEHhh9wBwY7QFz2_D85u0CFGbqtwCb283l0_W4LYVAOavU1JFYdC8NInN6UYzDzvu1AOrMeE0V7WxtftDcuDx5CuJySbjquIDqtKY9H1GLf6yDNdVRWwqTBMzydks4Zg7-ovpNTubwEjGp3Pk8DC52g" alt="Logistics Dashboard" />
+                <img className="w-full aspect-square object-cover rounded-[2.5rem]" src={logisticsDashboard} alt="Logistics Dashboard" />
               </div>
             </div>
             <div className="md:w-1/2">
@@ -237,7 +240,7 @@ const Service = () => {
             <h2 className="text-4xl md:text-6xl font-headline font-extrabold mb-8 tracking-tighter">Ready to optimize your flow?</h2>
             <p className="text-xl text-primary-fixed/90 mb-12">Join hundreds of global enterprises leveraging KVS for their mission-critical logistics needs.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a href="https://wa.me/919877413558?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-white text-primary px-10 py-5 rounded-full font-headline font-bold transition-all active:scale-95 shadow-xl shadow-white/20 inline-block">
+              <a href="https://wa.me/918699417062?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-white text-primary px-10 py-5 rounded-full font-headline font-bold transition-all active:scale-95 shadow-xl shadow-white/20 inline-block">
                 Start Consultation
               </a>
 

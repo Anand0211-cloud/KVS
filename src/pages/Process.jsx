@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logisticsDashboard from '../assets/logistics_dashboard.png';
 
 const Process = () => {
   return (
@@ -113,7 +114,7 @@ const Process = () => {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
           <div className="md:col-span-7 relative">
             <div className="aspect-video rounded-xl overflow-hidden shadow-2xl relative">
-              <img className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD445pWQkSFk9Sq6BX_iJ8jgkbEC1ChDVdWklhM2uqo4ZFLQ6g-QKbU2jZw1QLKTWibg5lb8zIaVsns6CksRDJ20nsU7DpEVp5qhJ2mktdsqSeAATC1Ssu9S-E7AvbWKMtQoRWRZqXlW4BqMxfA4mUQoMHwbvpVDFwQhU0cQnVaM-XvXaxmNnBsJ7ATmB3Qxn6i5cRvOqkD6C9zEs7zhn46sl9RXE-3lGlfKEwGVuacYDed6P5-qIr9wu3Y6HYyyRBXJv8kyBb91A" alt="Logistics Dashboard" />
+              <img className="w-full h-full object-cover" src={logisticsDashboard} alt="Logistics Dashboard" />
               <div className="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
             </div>
             {/* Floating Overlay Card */}

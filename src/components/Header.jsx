@@ -56,7 +56,7 @@ const Header = () => {
         {/* Desktop/Tablet CTA */}
         <div className="hidden sm:flex items-center gap-4">
           <a 
-            href="https://wa.me/919877413558?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." 
+            href="https://wa.me/918699417062?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." 
             target="_blank" 
             rel="noopener noreferrer" 
             className="bg-primary text-on-primary px-6 py-2.5 rounded-full font-bold active:scale-95 transition-transform hover:opacity-80 text-sm"
@@ -99,7 +99,7 @@ const Header = () => {
           <div className="pt-8 border-t border-slate-100 mt-auto">
             <p className="text-slate-400 text-sm mb-6 font-inter">Ready to optimize your supply chain?</p>
             <a 
-              href="https://wa.me/919877413558?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." 
+              href="https://wa.me/918699417062?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." 
               target="_blank" 
               rel="noopener noreferrer" 
               className="inline-block bg-primary text-on-primary px-8 py-4 rounded-full font-bold active:scale-95 transition-transform hover:opacity-80 w-full text-center text-xl shadow-lg shadow-primary/20"

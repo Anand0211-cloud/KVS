@@ -1,4 +1,5 @@
 import React from 'react';
+import globalReach from '../assets/global_reach.png';
 
 const Contact = () => {
   return (
@@ -74,7 +75,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-xs font-bold text-on-surface-variant">Phone</p>
-                      <a href="tel:+919877413558" className="text-lg font-semibold text-on-surface hover:text-primary transition-colors">+91 98774-13558</a>
+                      <a href="tel:+918699417062" className="text-lg font-semibold text-on-surface hover:text-primary transition-colors">+91 86994-17062</a>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -91,11 +92,11 @@ const Contact = () => {
               <div className="pt-8 border-t border-outline-variant/30">
                 <h3 className="text-xs uppercase tracking-widest text-on-surface-variant font-bold mb-4">Immediate Actions</h3>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:+919877413558" className="flex-1 min-w-[160px] bg-primary text-on-primary py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-all">
+                  <a href="tel:+918699417062" className="flex-1 min-w-[160px] bg-primary text-on-primary py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-all">
                     <span className="material-symbols-outlined text-sm">phone_in_talk</span>
                     Call Now
                   </a>
-                  <a href="https://wa.me/919877413558?text=Hello%20KVS%20Team,%20I%20am%20interested%20in%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="flex-1 min-w-[160px] bg-secondary text-on-secondary py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-all">
+                  <a href="https://wa.me/918699417062?text=Hello%20KVS%20Team,%20I%20am%20interested%20in%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="flex-1 min-w-[160px] bg-secondary text-on-secondary py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-all">
                     <span className="material-symbols-outlined text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>chat</span>
                     WhatsApp
                   </a>
@@ -104,7 +105,7 @@ const Contact = () => {
             </div>
             {/* Visual Accent Card */}
             <div className="relative h-64 rounded-[2rem] overflow-hidden group">
-              <img className="w-full h-full object-cover grayscale brightness-75 transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_bpjdfon99r41OtX1spL9a4aPuCJAL8ol16heY4thVMky1N6DcW8nibyjBhN8GsCsK2sCYux_Dx1yjiIssDmm3gZABMEB7ovE0XmjzWmKjdC1GMA-TimgK8P8CZWKf6yBszMweuP1OIxTgz9mvqQMftTJImqmCjFd6K9uP6xAIzxezniF71GgyPryWqfrbRUuVAC9koKTh4VAzLqp9gS4V30Im4Xwechx4wAbxog_IZWwEZU07Fx3RPJVDYEqWd50Zo4yntoFTg" alt="Global Reach" />
+              <img className="w-full h-full object-cover grayscale brightness-75 transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0" src={globalReach} alt="Global Reach" />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
                 <div>
                   <p className="text-white font-bold text-2xl">Global Reach</p>

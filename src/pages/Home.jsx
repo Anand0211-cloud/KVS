@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logisticsHero from '../assets/logistics_hero.png';
+import logisticsTeam from '../assets/logistics_team.png';
+import shippingContainers from '../assets/shipping_containers.png';
+import digitalLogisticsControl from '../assets/digital_logistics_control.png';
 
 const Home = () => {
   return (
@@ -20,7 +24,7 @@ const Home = () => {
                 Streamline your global supply chain with our sophisticated prism-flow methodology. We move beyond tracking to deliver real-time operational excellence.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
-                <a href="https://wa.me/919877413558?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-8 py-4 rounded-xl font-bold text-lg active:scale-95 transition-transform shadow-lg shadow-primary/20">
+                <a href="https://wa.me/918699417062?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-primary text-on-primary px-8 py-4 rounded-xl font-bold text-lg active:scale-95 transition-transform shadow-lg shadow-primary/20">
                   Get a Quote
                 </a>
                 <Link to="/contact" className="bg-outline-variant/10 backdrop-blur-xl border border-outline-variant/20 text-primary px-8 py-4 rounded-xl font-bold text-lg active:scale-95 transition-transform">
@@ -30,7 +34,7 @@ const Home = () => {
             </div>
             <div className="relative">
               <div className="aspect-square rounded-[3rem] overflow-hidden shadow-2xl rotate-3 transform hover:rotate-0 transition-transform duration-700 bg-surface-container-high">
-                <img alt="Logistics Operations" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGaWCnAOzyniNWuH3SpgowJTIt_DL9PVqsu3Wvpj6zCQh1qCjOGTdPaj_L24I-JCgJKd_QtV8lGgKc69MRuUKIPQ9dc_BHSEtCM6jkfCLuKrZmzRZmWvVO1uGYFV92fo7M3QSJaI0O_WTq6EhpflsCLVFH87OAw_l6UY2vFp52rxLAJIMEovZ7EPkeVZ1YYN62Xz7dmrfnIub084HvLauHkibMiWmKbp4jMqH6B59K1wDOR8u4TtVGiveqgQeJ1hZshQiH9GtCig" />
+                <img alt="Logistics Operations" className="w-full h-full object-cover" src={logisticsHero} />
               </div>
               {/* Prism Floating Element */}
               <div className="absolute -bottom-6 -left-6 glass-panel p-6 rounded-xl shadow-xl border border-white/40 max-w-xs">
@@ -62,7 +66,7 @@ const Home = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4 pt-12">
                   <div className="h-64 rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Logistics Team" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxjKV1HL1o131l_GU_B42Oxo0Na-GdWCyoTklDMKU54i6LlQHYhEL-bQW-IB8EVWN0FTgF8U-BUfZRW6QIElo90hu0GSV8C6G1Cp8WpN0QjPOKhfeH2StWBmqYLpXYHP0RNZ1y5TTgm8XTG86cxEJcr9e1uSKZiWDkTiX0qag6BFJDZ6k9CaLbB6NDDqwIHKgFJens7vR6iye_8zrQVgSBpj7qsQ6hRFHwNAYd27c2WUxLUZet1ZihVPmV8hWFyn-UitO1rJWNDQ" />
+                    <img alt="Logistics Team" className="w-full h-full object-cover" src={logisticsTeam} />
                   </div>
                   <div className="h-48 bg-primary rounded-xl flex items-center justify-center p-8 text-white">
                     <span className="text-3xl font-headline font-black text-center">Global Reach</span>
@@ -70,11 +74,11 @@ const Home = () => {
                 </div>
                 <div className="space-y-4">
                   <div className="h-48 bg-secondary-fixed text-on-secondary-fixed rounded-xl flex flex-col items-center justify-center p-8">
-                    <span className="text-4xl font-headline font-black">15+</span>
+                    <span className="text-4xl font-headline font-black">5+</span>
                     <span className="text-sm font-label font-bold uppercase tracking-widest">Years Experience</span>
                   </div>
                   <div className="h-64 rounded-xl overflow-hidden shadow-lg">
-                    <img alt="Shipping Containers" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDgoENy4GlKStQPAO6w5t0sEC_2iRcEeh-VWzaN_UUR8KE7sZeDhhZUlU_-Z4cp4vNwM0-58Kxxe2qe-p6XI6GVDeSTQJH_oqzGfXkDePyet7-3pj91pAPQmLW8lCMlLKuLDtXwIMJ_RUEEBiYurF8eP_sr2kF1O7OU_l5yDzV14ftRIgo7B2jrIjOwG6vBB3JaYSgqpLYv-uiRJd04h6YGjlocMwc9w_JfdeocqityIdtylEtRVpLyUxWedbsoRwuwRrFKwUOXA" />
+                    <img alt="Shipping Containers" className="w-full h-full object-cover" src={shippingContainers} />
                   </div>
                 </div>
               </div>
@@ -213,7 +217,7 @@ const Home = () => {
             </div>
             <div className="lg:w-1/2 relative">
               <div className="relative z-10 glass-panel p-2 rounded-[2.5rem] shadow-2xl">
-                <img alt="Digital Logistics Control" className="rounded-[2.25rem] w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMKkrqlliVRJZTkeWuBhfvOWAEzNGWadMyompHu1eGYN_fQdfvnEfPvcuIQO00zUU350uvt6VXWJBQUdnNJrxDRHKze7pPKVwl_6pM1Vl7I4NOThE_UNj4BiDS-s1FO495DNVYCYVeVm8ZYk2Wg5mh_g_ve2i7_FPpDgfd1AJEIM_RnhtzbhiQcmBp2nk-qMPDl1-ehYXYx5hU7zhcIKG3Td30OOqtVIsK0KaVl7A4GJCF6GDa8kL5IIDzc_NTLYhmqyTfZ253yA" />
+                <img alt="Digital Logistics Control" className="rounded-[2.25rem] w-full" src={digitalLogisticsControl} />
               </div>
               <div className="absolute -top-12 -right-12 w-64 h-64 bg-secondary/10 rounded-full blur-3xl -z-10"></div>
             </div>
@@ -278,10 +282,10 @@ const Home = () => {
               Join hundreds of businesses that have scaled their logistics capacity without increasing their internal complexity.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="https://wa.me/919877413558?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-white text-primary px-10 py-5 rounded-full font-bold text-xl active:scale-95 transition-transform hover:shadow-xl hover:shadow-white/20">
+              <a href="https://wa.me/918699417062?text=Hello%20KVS%20Team,%20I%20would%20like%20to%20request%20a%20quote%20for%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-white text-primary px-10 py-5 rounded-full font-bold text-xl active:scale-95 transition-transform hover:shadow-xl hover:shadow-white/20">
                 Get Your Free Quote
               </a>
-              <a href="https://wa.me/919877413558?text=Hello%20KVS%20Team,%20I%20am%20interested%20in%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-10 py-5 rounded-full font-bold text-xl active:scale-95 transition-transform">
+              <a href="https://wa.me/918699417062?text=Hello%20KVS%20Team,%20I%20am%20interested%20in%20your%20logistics%20services." target="_blank" rel="noopener noreferrer" className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-10 py-5 rounded-full font-bold text-xl active:scale-95 transition-transform">
                 Speak to an Expert
               </a>
             </div>
